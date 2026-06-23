@@ -1309,9 +1309,7 @@
 
                                     let tableRows = '';
                                     tableRows += '<tr><td style="padding:4px 8px; font-weight:bold;">Status:</td><td style="padding:4px 8px;">' + (status || '-') + '</td></tr>';
-                                    if (feature.properties.State) {
-                                        tableRows += '<tr><td style="padding:4px 8px; font-weight:bold;">State:</td><td style="padding:4px 8px;">' + feature.properties.State + '</td></tr>';
-                                    }
+                                    
                                     if (feature.properties.STATE_FIPS) {
                                         tableRows += '<tr><td style="padding:4px 8px; font-weight:bold;">STATE_FIPS:</td><td style="padding:4px 8px;">' + feature.properties.STATE_FIPS + '</td></tr>';
                                     }
